@@ -1,0 +1,12 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "Service templates and demos",
+  "main": "discord-bot-example.js",
+  "scripts": {
+    "start": "node discord-bot-example.js",
+    "scrape": "node scraper-example.js"
+  },
+  "keywords": ["automation", "bot", "scraper", "discord"],
+  "license": "MIT"
+}
