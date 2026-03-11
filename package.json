@@ -5,8 +5,13 @@
   "main": "discord-bot-example.js",
   "scripts": {
     "start": "node discord-bot-example.js",
-    "scrape": "node scraper-example.js"
+    "scrape": "node scraper-example.js",
+    "schedule": "node scheduled-task-example.js"
   },
   "keywords": ["automation", "bot", "scraper", "discord"],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "node-schedule": "^2.1.0"
+  }
 }
